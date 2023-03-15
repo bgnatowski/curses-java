@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ytkurs.podsumowanie.apkafxporsumowanie.controllers.AppController">
+   <children>
+      <Label layoutX="163.0" layoutY="33.0" text="Wykres">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <LineChart layoutX="22.0" layoutY="80.0" prefHeight="291.0" prefWidth="355.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button layoutX="177.0" layoutY="358.0" mnemonicParsing="false" onAction="#backMenu" text="Menu" />
+   </children>
+</Pane>

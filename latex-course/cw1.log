@@ -1,0 +1,157 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.17)  17 MAR 2022 19:26
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**e:/glowneRepo/courses-java/latex-course/cw1.tex
+(e:/glowneRepo/courses-java/latex-course/cw1.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+ (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/base\cp1250.def
+File: cp1250.def 2021/02/14 v1.3d Input encoding file
+)) (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
+Package: polski 2021/08/25 v1.3.6 Polish language package
+
+   Inputenc package detected. Catcodes not changed.
+   Switching to Polish text encoding and Polish maths fonts.
+(C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/base\ot4enc.def
+File: ot4enc.def 2021/04/29 v2.0v Standard LaTeX file
+Now handling font encoding OT4 ...
+... no UTF-8 mapping file for font encoding OT4
+)
+LaTeX Font Info:    Trying to load font information for OT4+cmr on input line 362.
+ (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmr.fd
+File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT4/cmss/m/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT4/cmr/m/it on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT4/cmss/bx/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT4/cmr/bx/it on input line 362.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `normal' on input line 362.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT4/cmr/m/n on input line 362.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/plm/m/it on input line 362.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/plsy/m/n on input line 362.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/plex/m/n on input line 362.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `bold' on input line 362.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 362.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 362.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 362.
+) (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box50
+) (cw1.aux)
+\openout1 = `cw1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Trying to load font information for OML+plm on input line 16.
+ (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
+File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 16.
+ (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/polski\omsplsy.fd
+File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMX+plex on input line 16.
+ (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/polski\omxplex.fd
+File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <14.4> on input line 16.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10> on input line 16.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <7> on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+ (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+ (C:\Users\bgnat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/bgnat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 22.
+ [2] [3] [4] [5] (cw1.aux) ) 
+Here is how much of TeX's memory you used:
+ 886 strings out of 478582
+ 16042 string characters out of 2844344
+ 305945 words of memory out of 3000000
+ 19089 multiletter control sequences out of 15000+600000
+ 483064 words of font info for 68 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,6n,48p,927b,216s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\bgnat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>{C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}{C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plit.enc}<C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi12.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi8.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr6.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr8.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy8.pfb><C:/Users/bgnat/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plti12.pfb>
+Output written on cw1.pdf (5 pages, 96700 bytes).
+PDF statistics:
+ 88 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

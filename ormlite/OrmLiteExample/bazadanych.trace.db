@@ -1,0 +1,4 @@
+2022-09-12 20:30:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "WINPQDATASET" nie istnieje
+Table "WINPQDATASET" not found; SQL statement:
+UPDATE WinPQDataSET U12_avg = 240.213 WHERE DATE = '2022-09-12' AND TIME = '19:34'; [42102-214]

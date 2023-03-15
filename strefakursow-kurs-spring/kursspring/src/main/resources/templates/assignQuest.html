@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://thymeleaf.org" lang="pl-PL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://thymeleaf.org">
+<head>
+  <title>Assign Quest</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+  <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"/>
+
+  <script th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"></script>
+  <script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+</head>
+
+<body>
+<div class="container">
+  <h1> Dodaj nowego zadanie: </h1>
+
+  <form class="form-horizontal" th:object="${knight}" th:action="@{/assignQuest}" th:method="post">
+    <input type="hidden" th:field="*{id}"/>
+    <input type="hidden" th:field="*{name}"/>
+    <input type="hidden" th:field="*{age}"/>
+    <input type="hidden" th:field="*{level}"/>
+    <div class="form-group">
+      <label class="control-label">Przypisz zadanie:</label>
+      <label>
+        <select th:field="*{quest}">
+          <option th:each="quest : ${notStartedQuests}"
+                  th:value="${quest.id}"
+                  th:text="${quest.description}"></option>
+        </select>
+      </label>
+      <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></p>
+    </div>
+    <div class="row">
+      <button type="submit" class="btn btn-default">Przypisz zadanie</button>
+    </div>
+  </form>
+
+</div>
+</body>
+
+
+</html>

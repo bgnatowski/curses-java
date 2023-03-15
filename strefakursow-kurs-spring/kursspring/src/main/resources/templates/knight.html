@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://thymeleaf.org" lang="pl-PL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://thymeleaf.org">
+<head>
+    <title>Knight Info</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"/>
+
+    <script th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+</head>
+
+<body>
+<div class="container">
+    <table class="table table-sm table-bordered">
+        <thead>
+        <tr><td><h4>Szczegółowy podgląd</h4></td> <td><h4>Dane</h4></td></tr>
+        </thead>
+        <tbody>
+            <tr><td>Imie</td> <td th:text="${knight.name}"></td></tr>
+            <tr><td>Wiek</td> <td th:text="${knight.age}"></td></tr>
+            <tr><td>Lvl</td> <td th:text="${knight.level}"></td></tr>
+        </tbody>
+    </table>
+    <div class="row">
+        <span><strong>Aktualny czas: </strong></span><p th:text="${timecomponent.time}"></p>
+        <span><strong>Posiadane złoto: </strong></span><p th:text="${playerinformation.gold}"></p>
+    </div>
+</div>
+</body>
+
+</html>

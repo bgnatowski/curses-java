@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbd1c239-a8af-4e0e-b046-a0daca2026fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/ytkurs/podsumowanie/apkafxporsumowanie/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/ytkurs/podsumowanie/apkafxporsumowanie/MenuScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/ytkurs/podsumowanie/apkafxporsumowanie/OptionsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/resources/ytkurs/podsumowanie/apkafxporsumowanie/AppScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/resources/ytkurs/podsumowanie/apkafxporsumowanie/OptionsScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/src/main/java/ytkurs/tabelaapk/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/src/main/java/ytkurs/tabelaapk/TableApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/src/main/java/ytkurs/tabelaapk/TableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TabelaApk/src/main/resources/ytkurs/tabelaapk/TableView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/src/main/java/com/example/javafxtest/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/src/main/java/com/example/javafxtest/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXTest/JavaFXTest/src/main/resources/com/example/javafxtest/hello-view2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApkaFXPorsumowanie/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/ytkurs/podsumowanie/apkafxporsumowanie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/ytkurs/podsumowanie/apkafxporsumowanie/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/ytkurs/podsumowanie/apkafxporsumowanie/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/java/ytkurs/podsumowanie/apkafxporsumowanie/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/resources/ytkurs/podsumowanie/apkafxporsumowanie/MenuScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApkaFXPorsumowanie/src/main/resources/ytkurs/podsumowanie/apkafxporsumowanie/MenuScreen.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BQtH3Q1QdjZj0y9ppO6aWqjFPr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/glowneRepo/courses-java/ytJavaFX/TabelaApk",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\glowneRepo\courses-java\ytJavaFX\demo\src\main\java\ytkurs\odc17" />
+      <recent name="E:\glowneRepo\courses-java\ytJavaFX\demo\src\main\resources\com\example\demo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ytkurs.tabelaapk.TableApplication">
+    <configuration name="TableApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.TableApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ytkurs.tabelaapk.TableApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ytkurs.tabelaapk.TableApplication" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ytkurs.tabelaapk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ytkurs.tabelaapk.TableApplication" />
+        <item itemvalue="Application.TableApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbd1c239-a8af-4e0e-b046-a0daca2026fb" name="Changes" comment="" />
+      <created>1656850047202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656850047202</updated>
+      <workItem from="1656850048580" duration="1796000" />
+      <workItem from="1656957921871" duration="1811000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.moja.biblioteczka.controllers.CategoryController">
+   <children>
+      <HBox alignment="TOP_CENTER" spacing="20.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="RIGHT" text="%add.category" />
+            <TextField fx:id="categoryTextField" prefWidth="130.0" />
+            <Button fx:id="addCategoryButton" mnemonicParsing="false" onAction="#addCategoryOnAction" text="%add.button" />
+            <Label alignment="CENTER" contentDisplay="CENTER" text="%choose.category" />
+            <ComboBox fx:id="categoryComboBox" onAction="#onActionComboBox" prefWidth="130.0" />
+            <Button fx:id="editCategoryButton" mnemonicParsing="false" onAction="#onActionEditCategory" text="%edit.button" />
+            <Button fx:id="deleteCategoryButton" mnemonicParsing="false" onAction="#deleteOnAction" text="%delete.button" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <TreeView fx:id="categoryTreeView" showRoot="false" />
+   </children>
+</VBox>

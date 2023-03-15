@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ytkurs.podsumowanie.apkafxporsumowanie.controllers.MenuScreenController">
+    <Button layoutX="168.0" layoutY="54.0" mnemonicParsing="false" onAction="#openApplication" text="Aplikacja" />
+    <Button layoutX="174.0" layoutY="188.0" mnemonicParsing="false" onAction="#options" text="Opcje" />
+    <Button layoutX="172.0" layoutY="332.0" mnemonicParsing="false" onAction="#exit" text="Wyjście" />
+</Pane>

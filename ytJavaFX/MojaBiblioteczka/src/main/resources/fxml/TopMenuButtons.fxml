@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import org.controlsfx.control.ToggleSwitch?>
+
+<HBox spacing="10.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.moja.biblioteczka.controllers.TopMenuButtonsController">
+   <children>
+      <ToggleButton contentDisplay="TOP" mnemonicParsing="false" onAction="#openListBooks" prefHeight="80.0" prefWidth="150.0" text="%list.books">
+         <graphic>
+            <ImageView fitHeight="72.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/list_books_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleButtons" />
+         </toggleGroup></ToggleButton>
+      <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#addBook" prefHeight="80.0" prefWidth="150.0" text="%add.book">
+         <graphic>
+            <ImageView fitHeight="72.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/add_book_icon.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="TOP" layoutX="664.0" layoutY="20.0" mnemonicParsing="false" onAction="#addAuthor" prefHeight="80.0" prefWidth="150.0" text="%author.button">
+         <graphic>
+            <ImageView fitHeight="72.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/author.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#addCategory" prefHeight="80.0" prefWidth="150.0" text="%add.category">
+         <graphic>
+            <ImageView fitHeight="72.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/category.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ToggleSwitch fx:id="languageSwitch" onMouseClicked="#switchLanguage" text="%switch.language" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</HBox>

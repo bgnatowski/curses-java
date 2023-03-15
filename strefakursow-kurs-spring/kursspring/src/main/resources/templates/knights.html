@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://thymeleaf.org" lang="pl-PL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://thymeleaf.org">
+<head>
+    <title>Knight list</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"/>
+
+    <script th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js}"></script>
+</head>
+
+<body>
+<div class="container">
+    <h1 style="text-align: center"> Rycerze </h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Imie rycerza</td>
+                <td>Poziom</td>
+                <td>Zadanie</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody th:each="knight : ${knights}">
+            <tr>
+                <td th:text="${knight.id}"></td>
+                <td th:text="${knight.name}"></td>
+                <td th:text="${knight.level}"></td>
+                <td>
+                    <span th:if="${knight.quest==null}">
+                        Brak aktualnego zadania
+                        <a th:href="${'/assignQuest?knightId='+knight.id}">Przypisz zadanie</a>
+                    </span>
+                    <span th:if="${knight.quest!=null}" th:text="${knight.quest.description}"></span>
+                </td>
+                <td><a th:href="${'/knight?id='+knight.id}">Podglad</a></td>
+                <td><a th:href="${'/knight/delete/'+knight.id}">Usuń</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="row">
+        <a class="btn btn-primary" href="/newknight" role="button">Zrekrutuj nowego rycerza</a>
+<!--        <a class="btn btn-primary" href="/checkQuests">Aktualizuj zadania</a>-->
+<!--        lub tak:-->
+        <a class="btn btn-primary" th:href="${'/checkQuests'}">Aktualizuj zadania</a>
+    </div>
+    <div class="row">
+        <span><strong>Aktualny czas: </strong></span><p th:text="${timecomponent.time}"></p>
+        <span><strong>Posiadane złoto: </strong></span><p th:text="${playerinformation.gold}"></p>
+    </div>
+
+    <div class="row">
+        <form action="#" th:action="@{/logout}" method="post">
+            <input type="submit" value="Logout"/>
+        </form>
+    </div>
+</div>
+</body>
+</html>
