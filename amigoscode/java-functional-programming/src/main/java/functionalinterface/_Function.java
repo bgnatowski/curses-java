@@ -21,6 +21,8 @@ public class _Function {
         // Function takes 2 argument and produces 1 result
         System.out.println(incrementByOneAndMultiply(4, 100));
         System.out.println(incrementByOneAndMultiplyBiFunction.apply(4, 100));
+
+        System.out.println(concatenate.apply("boa", "dusiciel"));
     }
 
     static Function<Integer, Integer> incrementByOneFunction =
@@ -28,6 +30,9 @@ public class _Function {
 
     static Function<Integer, Integer> multiplyBy10Function =
             number -> number * 10;
+
+    static BiFunction<String, String, String> concatenate =
+            (word1, word2) -> word1 + word2;
 
     static int incrementByOne(int number) {
         return number + 1;

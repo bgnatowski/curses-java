@@ -18,12 +18,12 @@ public class _Predicate {
         System.out.println(
                 "Is phone number valid and contains number 3 = " +
                 isPhoneNumberValidPredicate
-                        .or(containsNumber3)
+                        .and(containsNumber3)
                         .test(phoneNumber)
         );
 
         System.out.println(
-                "Is phone number valid and contains number 3 = " +
+                "Is phone number valid or contains number 3 = " +
                         isPhoneNumberValidPredicate
                                 .or(containsNumber3)
                                 .test(phoneNumber2)
