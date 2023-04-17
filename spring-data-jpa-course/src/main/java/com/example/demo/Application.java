@@ -49,18 +49,18 @@ public class Application {
 			student.setStudentIdCard(studentIdCard);
 
 			student.addEnrollment(new Enrollment(
-					new EnrollmentId(1l, 1l),
+					new EnrollmentId(1L, 1L),
 					student,
 					new Course("Computer Science", "IT"),
 					LocalDateTime.now().minusYears(4))
 			);
 			student.addEnrollment(new Enrollment(
-					new EnrollmentId(1l, 2l),
+					new EnrollmentId(1L, 2L),
 					student,
 					new Course("Amigoscode Spring Data JPA", "IT"),
 					LocalDateTime.now()));
 			student.addEnrollment(new Enrollment(
-					new EnrollmentId(1l, 3l),
+					new EnrollmentId(1L, 3L),
 					student,
 					new Course("Maths", "Maths"),
 					LocalDateTime.now().minusDays(14))

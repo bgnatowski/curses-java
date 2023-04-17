@@ -12,7 +12,6 @@ import java.util.Objects;
 @Setter
 @NoArgsConstructor
 
-
 @Entity(name = "Student")
 @Table(name = "student",
 		uniqueConstraints = {
@@ -67,6 +66,7 @@ public class Student {
 			mappedBy = "student"
 	)
 	private List<Enrollment> enrollments = new ArrayList<>();
+
 
 	public void addEnrollment(Enrollment enrollment){
 		if(!enrollments.contains(enrollment)){

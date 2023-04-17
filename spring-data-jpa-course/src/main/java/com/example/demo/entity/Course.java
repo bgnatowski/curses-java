@@ -5,8 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @Getter
 @Setter
@@ -47,6 +48,19 @@ public class Course {
 			enrollments.remove(enrollment);
 			enrollment.setCourse(null);
 		}
+		String str = "dupa";
+		String[] words = str.split(" ");
+		Arrays.stream(words)
+				.collect(Collectors.groupingBy(Course::getDistinctLetters)
+				);
+	}
+	private static long getDistinctLetters(String word) {
+		long count = word.chars()
+				.filter(Character::isAlphabetic)
+				.distinct()
+				.count();
+
+		return count;
 	}
 
 	public Course(String name, String department) {
